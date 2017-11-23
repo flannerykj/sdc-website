@@ -5,15 +5,14 @@ class PersonList extends Component {
     return(
       <div>
         <hr/>
-        <p>
-          {this.props.people.items?this.props.people.items.map((person) => {
+          {this.props.people.items?this.props.people.items.map((person, i) => {
           const {firstName, lastName, bio, position, twitter, profilePicture} = person.fields;
           return (
-          <div className='card' style={{marginBottom: '20px'}}>
+          <div className='card' style={{marginBottom: '20px'}} key={i}>
             <div className='card-content'>
               <div className='media'>
                 <div className='media-left'>
-                  <img style={{width: '100px'}}src={profilePicture} />
+                  <img style={{width: '100px'}} src={profilePicture} />
                 </div>
                 <div className='media-content'>
                   <h4 className='title is-3'>{firstName} {lastName}</h4>
@@ -30,7 +29,6 @@ class PersonList extends Component {
 
           )}):''}
 
-        </p>
 
       </div>
     )
