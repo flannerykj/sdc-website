@@ -68,7 +68,7 @@ class Navbar extends Component {
               data-social-action="tweet"
               data-social-target="https://smeltzerdigitalconsulting.ca"
               target="_blank"
-              href="https://twitter.com/intent/tweet?text=Digital consulting agency&hashtags=well-being&url=https://smeltzerdigitalconsulting.com">
+              href="https://twitter.com/intent/tweet?text=Digital consulting agency&hashtags=well-being&url=http://smeltzerdigital.com">
               <span className="icon">
                 <i className="fa fa-twitter"></i>
               </span>
