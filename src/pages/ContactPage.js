@@ -33,7 +33,7 @@ class ContactPage extends Component {
           <div>
 
         {title}
-        <form action="https://formspree.io/flannj@gmail.com" method="POST">
+        <form action="https://formspree.io/sophiaquraishi@gmail.com" method="POST">
           <div className='field'>
             <div className='label' htmlFor='name'>Name</div>
             <div className='control has-icons-left'>
