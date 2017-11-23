@@ -1,0 +1,37 @@
+html {
+  color: #4a4a4a;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #efefef;
+}
+/*CONTAINER LAYOUT
+ * ===============*/
+
+.page-container{
+  max-width: 800px;
+  margin: 0 auto;
+}
+#root {
+  height: 100%
+}
+#root>div{
+  height: 100%
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.my-content{
+  min-height: 100%;
+  margin-bottom: -150px !important;
+}
+.footer {
+  height: 100px;
+}
+.push {
+  height: 100px;
+}
+
